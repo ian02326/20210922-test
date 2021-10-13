@@ -2,12 +2,14 @@ const readline = require('readline-sync');
 
 var top = 100; //index value
 var bottom = 0;
-var floorName = ["B3", "B2", "B1", "1", "2", "3", "4", "5", "6", "7", "8"]
+var floorName = ["1"]
+for (var i = 2; i <= 8; i++)
+    floorName.push(i);
 // 1 秀出所有樓層名稱, sol->呼叫陣列提供的toString()
 // 2 用程式建立floorName 樓層名稱 homework#2, push(), pop(), unshift(), shift()
 // 3 讓 JS 暫停一段時間後續行 homework#2
 
-var currentFloor = 5; //index value of floorName
+var currentFloor = 7; //index value of floorName
 var targetFloor; //B2 -> index:1
 
 while (true) { //無窮迴圈
