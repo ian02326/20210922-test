@@ -5,6 +5,7 @@ var bottom = 0;
 var floorName = ["1"]
 for (var i = 2; i <= 8; i++)
     floorName.push(i);
+    floorName=floorName.toString();
 // 1 秀出所有樓層名稱, sol->呼叫陣列提供的toString()
 // 2 用程式建立floorName 樓層名稱 homework#2, push(), pop(), unshift(), shift()
 // 3 讓 JS 暫停一段時間後續行 homework#2
