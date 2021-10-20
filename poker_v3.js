@@ -25,4 +25,9 @@ function compare(a,b){
 poker.sort(compare);
 console.log(poker.toString()); 
 
+console.log("Player1:"+player1)
+console.log("Player2:"+player2)
+console.log("Player3:"+player3)
+console.log("Player4:"+player4)
+
 //split every 13 card to player 1, 2, 3, 4
